@@ -17,3 +17,6 @@
 
 ## 5-printf.c
 > Prints out a string value
+
+## 6-size.c
+> prints the size of various types on the computer it is compiled and run on.
