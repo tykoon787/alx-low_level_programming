@@ -23,3 +23,6 @@
 
 ## 7-print_tebahpla.c
 > This script will print alphabets from a - z in reverse
+
+## 8-print_base16.c
+> This script will print all the numbers of base 16 in lowercase
