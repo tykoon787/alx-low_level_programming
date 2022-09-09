@@ -14,3 +14,6 @@
 
 ## 4-puts 
 > Using the `puts` function
+
+## 5-print.c
+> Prints out a string value
