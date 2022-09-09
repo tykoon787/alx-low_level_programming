@@ -23,3 +23,6 @@
 
 ## 100-itnel 
 > Script will generate assembly language in Intel Sytax
+
+## 101-quote.c
+> Writes to `stderr`
