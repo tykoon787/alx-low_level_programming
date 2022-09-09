@@ -14,3 +14,6 @@
 
 ## 4-print_alphabt.c
 > This script will print every alphabet except for 'e' and 'q'
+
+## 5-print_numbers.c
+> This script will print numbers from '0' to '9'
