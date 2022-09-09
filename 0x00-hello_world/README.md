@@ -15,5 +15,5 @@
 ## 4-puts 
 > Using the `puts` function
 
-## 5-print.c
+## 5-printf.c
 > Prints out a string value
