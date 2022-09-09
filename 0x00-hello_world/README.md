@@ -11,3 +11,6 @@
 
 ## 3-name 
 > Generates an executable called `c is fun`
+
+## 4-puts 
+> Using the `puts` function
