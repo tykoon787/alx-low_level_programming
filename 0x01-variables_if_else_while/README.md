@@ -19,4 +19,7 @@
 > This script will print numbers from '0' to '9'
 
 ## 6-print_numberz.c
-> This script willp print numbers from '0' to '9' but using the `putchar` function
+> This script will print numbers from '0' to '9' but using the `putchar` function
+
+## 7-print_tebahpla.c
+> This script will print alphabets from a - z in reverse
