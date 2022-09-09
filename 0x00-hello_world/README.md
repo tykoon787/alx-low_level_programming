@@ -8,3 +8,6 @@
 
 ## 2-assembler
 > Generates the assembly code of a C code and save it in an output file.
+
+## 3-name 
+> Generates an executable called `c is fun`
