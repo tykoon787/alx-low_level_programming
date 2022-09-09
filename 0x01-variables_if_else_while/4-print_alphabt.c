@@ -20,5 +20,6 @@ int main(void)
 		putchar(tolower(lower));
 	}
 	}
+	putchar('\n');
 	return (0);
 }
