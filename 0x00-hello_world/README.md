@@ -2,3 +2,6 @@
 
 ## 0-preprocessor
 > This script will run a C file through the preprocessor and save the result into another file. 
+
+## 1-compiler
+> This script will compile some `c` but will not link it
