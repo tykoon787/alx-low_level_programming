@@ -26,3 +26,6 @@
 
 ## 8-print_base16.c
 > This script will print all the numbers of base 16 in lowercase
+
+## 9-print_comb.c
+> This program will prints all possible combinations of single-digit numbers
