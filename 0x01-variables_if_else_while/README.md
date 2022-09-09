@@ -5,3 +5,6 @@
 
 ## 1-last_digit.c 
 > This script will check the value of the last digit of a random number and perfom logic 
+
+## 2-print_alphabet.c
+> This script will print alphabets from a-z
