@@ -11,3 +11,6 @@
 
 ## 3-print_alphabets.c
 > This script will print alpahets from a-z then A-Z
+
+## 4-print_alphabt.c
+> This script will print every alphabet except for 'e' and 'q'
