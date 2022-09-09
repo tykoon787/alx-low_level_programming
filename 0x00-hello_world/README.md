@@ -5,3 +5,6 @@
 
 ## 1-compiler
 > This script will compile some `c` but will not link it
+
+## 2-assembler
+> Generates the assembly code of a C code and save it in an output file.
