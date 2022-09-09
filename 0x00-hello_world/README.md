@@ -20,3 +20,6 @@
 
 ## 6-size.c
 > prints the size of various types on the computer it is compiled and run on.
+
+## 100-itnel 
+> Script will generate assembly language in Intel Sytax
