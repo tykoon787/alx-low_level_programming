@@ -17,3 +17,6 @@
 
 ## 5-print_numbers.c
 > This script will print numbers from '0' to '9'
+
+## 6-print_numberz.c
+> This script willp print numbers from '0' to '9' but using the `putchar` function
