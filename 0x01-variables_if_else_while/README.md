@@ -8,3 +8,6 @@
 
 ## 2-print_alphabet.c
 > This script will print alphabets from a-z
+
+## 3-print_alphabets.c
+> This script will print alpahets from a-z then A-Z
