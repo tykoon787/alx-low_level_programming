@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _isalpha - Checks to see if the value passed is an aplhabetic char 
+ * _isalpha - Checks to see if the value passed is an aplhabetic char
  * @c: Character to be checked
  * Return: 1 if alphabetic character. 0 otherwise
  *
