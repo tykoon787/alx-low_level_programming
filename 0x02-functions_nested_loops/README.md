@@ -32,3 +32,6 @@
 
 ## 9-times_table.c
 > This program will print the 9-times_table
+
+## 10-add.c
+> This program will add and return the value of any two integers
