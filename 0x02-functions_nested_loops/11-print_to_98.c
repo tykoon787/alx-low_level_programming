@@ -12,7 +12,7 @@ void print_to_98(int n)
 	int max;
 
 	max = 98;
-	while (n != max)
+	while (n >= max)
 	{
 	n = n + 1;
 	printf("%d, ", n);
