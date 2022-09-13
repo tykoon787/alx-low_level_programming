@@ -5,7 +5,7 @@
  * @n: Value to be checked
  * Return: 0 (Success)
  */
-int _abs(n)
+int _abs(int n)
 {
 	if (n > 0)
 	{
@@ -13,7 +13,7 @@ int _abs(n)
 	}
 	else
 	{
-		_putchar((n - n)+0);
+		_putchar((n - n) + 0);
 	}
 	return (0);
 }
