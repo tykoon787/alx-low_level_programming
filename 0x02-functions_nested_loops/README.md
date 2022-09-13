@@ -8,3 +8,6 @@
 
 ## 1-alphabets.c 
 > This program will print the alphabets in lowercase
+
+## 2-alphabet_x10.c
+> This programm will print the alphabets in lowercase 10 times
