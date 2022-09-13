@@ -9,27 +9,28 @@
 
 void times_table(void)
 {
-	int rone, cone, d;
+	int row, column, num, x;
 
-	for (rone = 0; rone <= 9; rone++)
+	num = 9;
+	for (row = 0; row <= num; row++)
 	{
 		_putchar('0');
 		_putchar(',');
 		_putchar(' ');
-		for (cone = 1; cone <= 9; cone++)
+		for (column = 1; column <= num; column++)
 		{
-			d = (rone * cone);
-			if ((d / 10) > 0)
+			x = (row * column);
+			if ((x / 10) > 0)
 			{
-				_putchar((d / 10) + '0');
+				_putchar((x / 10) + '0');
 			}
 			else
 			{
 				_putchar(' ');
 			}
-			_putchar((d % 10) + '0');
+			_putchar((x % 10) + '0');
 
-			if (cone < 9)
+			if (column < num)
 			{
 				_putchar(',');
 				_putchar(' ');
