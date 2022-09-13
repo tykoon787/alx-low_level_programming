@@ -20,3 +20,6 @@
 
 ## 5-sign.c
 > This program will print the sign of a number
+
+## 6-abs.c
+> This program will return the absolute value of a number
