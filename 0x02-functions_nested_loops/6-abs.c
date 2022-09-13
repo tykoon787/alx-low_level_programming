@@ -15,7 +15,7 @@ int _abs(int n)
 	{
 		int result;
 
-		result = (n * n) / n;
+		result = ((n * n) / n);
 		_putchar(result);
 	}
 	return (0);
