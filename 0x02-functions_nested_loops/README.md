@@ -23,3 +23,9 @@
 
 ## 6-abs.c
 > This program will return the absolute value of a number
+
+## 7-print_last_digit.c
+> This program will print the last digit of a given number 
+
+## 8-24_hours.c
+> This program will print the all the minutes of the day
