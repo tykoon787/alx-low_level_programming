@@ -8,5 +8,17 @@
  */
 int print_last_digit(int n)
 {
-	return (n % 10);
+	int result;
+
+	if (n < 0)
+	{
+		result = (n % 10) * -1; /* Convert last digit of n to abs value*/
+	}
+	else
+	{
+		result = n % 10;
+	}
+	_putchar((result % 10) + '0');
+	return (result % 10);
 }
+
