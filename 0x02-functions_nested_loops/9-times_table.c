@@ -9,16 +9,33 @@
 
 void times_table(void)
 {
-	int row, column, num, result;
+	int rone, cone, d;
 
-	num = 9;
-	for (row = 0; row <= num; row++)
+	for (rone = 0; rone <= 9; rone++)
 	{
-		for (column = 0; column <= num; column++)
+		_putchar('0');
+		_putchar(',');
+		_putchar(' ');
+		for (cone = 1; cone <= 9; cone++)
 		{
+			d = (rone * cone);
+			if ((d / 10) > 0)
+			{
+				_putchar((d / 10) + '0');
+			}
+			else
+			{
+				_putchar(' ');
+			}
+			_putchar((d % 10) + '0');
 
-			_putchar(row);
-			_putchar(column);
+			if (cone < 9)
+			{
+				_putchar(',');
+				_putchar(' ');
+			}
 		}
+		_putchar('\n');
 	}
+
 }
