@@ -16,8 +16,9 @@ void times_table(void)
 	{
 		for (column = 0; column <= num; column++)
 		{
-			result = row * column;
-			_putchar(result);
+
+			_putchar(row);
+			_putchar(column);
 		}
 	}
 }
