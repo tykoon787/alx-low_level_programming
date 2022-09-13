@@ -10,17 +10,20 @@ void jack_bauer(void)
 	int counter = 24;
 	int h, m;
 
-	h = 00;
+	h = 0;
 	while (counter != 0)
 	{
-	for (m = 00; m <= 59; m++)
+	for (m = 0; m <= 59; m++)
 	{
-		_putchar(h);
-		_putchar(58); /*ASCII Value for colon is 58*/
-		_putchar(m);
+		_putchar((h / 10) + '0');
+		_putchar((h % 10) + '0');
+		_putchar(':');
+		_putchar((m / 10) + '0');
+		_putchar((m % 10) + '0');
+		_putchar('\n');
 	}
 	h = h + 1;
-	m = 00;
+	m = 0;
 	counter = counter - 1;
 	}
 }
