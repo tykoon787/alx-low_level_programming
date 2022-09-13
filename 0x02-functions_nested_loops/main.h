@@ -2,7 +2,7 @@
 #define MAIN_H
 
 char _putchar(char c);
-inline void print_alphabet(void)
+static void print_alphabet(void)
 {
 	char lower; 
 
