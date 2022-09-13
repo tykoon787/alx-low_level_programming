@@ -17,3 +17,6 @@
 
 ## 4-isalpha.c
 > This programm will check to see if the a value is an alphabetic character
+
+## 5-sign.c
+> This program will print the sign of a number
