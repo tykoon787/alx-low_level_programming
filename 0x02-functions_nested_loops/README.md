@@ -29,3 +29,6 @@
 
 ## 8-24_hours.c
 > This program will print the all the minutes of the day
+
+## 9-times_table.c
+> This program will print the 9-times_table
