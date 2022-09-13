@@ -1,15 +1,12 @@
 #include "main.h"
 
 /**
- * main - Entry Point
+ * print_alphabets - Prints all alphabets in lower case
  *
- * Return: Always 0 (Success)
- *
- * print_alphabet - Prints all alphabets
- * in lower case
+ * Return: Nothing
  *
  */
-int main(void)
+void print_alphabets(void)
 {
 	char lower;
 
@@ -18,5 +15,4 @@ int main(void)
 		_putchar(lower);
 	}
 	_putchar('\n');
-	return (0);
 }
