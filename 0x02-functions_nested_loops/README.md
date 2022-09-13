@@ -5,3 +5,6 @@
 
 ## 0-putchar.c
 > This program will print `_putchar` 
+
+## 1-alphabets.c 
+> This program will print the alphabets in lowercase
