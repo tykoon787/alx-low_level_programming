@@ -11,3 +11,6 @@
 
 ## 2-alphabet_x10.c
 > This programm will print the alphabets in lowercase 10 times
+
+## 3-islower.c
+> This programm will check if a value is in lowercase
