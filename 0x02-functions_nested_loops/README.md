@@ -14,3 +14,6 @@
 
 ## 3-islower.c
 > This programm will check if a value is in lowercase
+
+## 4-isalpha.c
+> This programm will check to see if the a value is an alphabetic character
