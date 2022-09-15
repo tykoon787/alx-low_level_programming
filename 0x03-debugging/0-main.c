@@ -1,16 +1,17 @@
 #include "main.h"
+#include "positive_or_negative.c"
 
 /**
- * main - Entry Point
+ * positive_or_negative - Returns sign of an interger
+ * @i: Value to be checked
  *
- * Return: 0 (Success)
+ * Return: Nothing
  */
-int main(void)
-{
-	int i;
 
-	i = 34;
+void positive_or_negative(int i)
+{
+
+	i = 23;
 	positive_or_negative(i);
-	return (0);
 }
 
