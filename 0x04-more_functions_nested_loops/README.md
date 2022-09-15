@@ -29,3 +29,6 @@
 
 ## 9-fizz_buzz.c
 > Fizz Buzz
+
+## 10-print_traingles.c
+> Prints a triangle on the terminal
