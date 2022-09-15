@@ -3,7 +3,7 @@
 void print_integer(int m);
 /**
  * print_number - Prints an integer.
- * @n: Interger value 
+ * @n: Interger value
  * Return: Nothing
  */
 void print_number(int n)
@@ -20,7 +20,7 @@ void print_number(int n)
 }
 
 /**
- * print_integer - Prints n 
+ * print_integer - Prints n
  * @m: unsigned int value
  * Return: Nothing
  */
