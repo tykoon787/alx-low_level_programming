@@ -23,3 +23,6 @@
 
 ## 7-print_diagonal.c 
 > This function that draws a diagonal line on the terminal.
+
+## 8-print_square.c
+> This function draws a square
