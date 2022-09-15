@@ -26,3 +26,6 @@
 
 ## 8-print_square.c
 > This function draws a square
+
+## 9-fizz_buzz.c
+> Fizz Buzz
