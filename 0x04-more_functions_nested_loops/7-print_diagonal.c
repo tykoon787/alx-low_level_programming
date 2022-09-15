@@ -2,7 +2,7 @@
 
 /**
  * print_diagonal - Draws a diagonal line on the terminal.
- * @n: Int to evaluate to line 
+ * @n: Int to evaluate to line
  * Return: Always 0
  */
 void print_diagonal(int n)
