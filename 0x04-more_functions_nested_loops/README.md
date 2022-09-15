@@ -5,3 +5,6 @@
 
 ## 1-isdigit.c
 > Thsi function will check to see if an argument passed to it is a digit
+
+## 2-mul.c
+> This function will multiply two integers
