@@ -32,3 +32,6 @@
 
 ## 10-print_traingles.c
 > Prints a triangle on the terminal
+
+## 100-prime_factor.c
+> finds and prints the largest prime factor of the number `612852475143`
