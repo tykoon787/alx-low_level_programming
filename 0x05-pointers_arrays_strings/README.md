@@ -11,3 +11,6 @@
 
 ## 3-puts.c
 > function that prints a string, followed by a new line
+
+## 4-print_rev.c
+> Function that prints a string in reverse
