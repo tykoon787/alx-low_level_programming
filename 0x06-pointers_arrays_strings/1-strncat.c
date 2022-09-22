@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
  * _strncat- Copies n bytes from src to dest
@@ -19,29 +18,15 @@ char *_strncat(char *dest, char *src, int n)
 	dest++;
 	}
 
-	if (n < 0)
-	{
-
-	}
-
-	int result;
-
-	if (n < 0)
-	{
-		result = n * -1;
-	}
-	else
-	{
-		result = n;
-	}
-	while (result != 0)
+	while (n != 0)
 	{
 	*dest = *src;
 	dest++;
 	src++;
-	result--;
+	n--;
 	}
 
 	*dest = '\0';
 	return (start);
 }
+
