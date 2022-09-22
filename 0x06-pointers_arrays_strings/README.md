@@ -17,3 +17,6 @@
 
 ## 5-string_toupper.c
 > This program will convert all lowercase letters to uppercase
+
+## 6-cap_string.c
+> This program will capitalize all words of a string
