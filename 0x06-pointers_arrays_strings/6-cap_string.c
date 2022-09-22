@@ -27,7 +27,7 @@ char *cap_string(char *s)
 /**
  * check_seperators - Separators of words: space, tabulation, new line,
  * ,, ;, ., !, ?, ", (, ), {, and }
- * @c: Character Input 
+ * @c: Character Input
  * Return: 1 if seperator, 0 otherwise
  */
 int check_seperators(char c)
