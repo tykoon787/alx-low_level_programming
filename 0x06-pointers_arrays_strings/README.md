@@ -14,3 +14,6 @@
 
 ## 4-rev_array.c
 > This program will reverse an array of `n`
+
+## 5-string_toupper.c
+> This program will convert all lowercase letters to uppercase
