@@ -7,6 +7,7 @@
  * @n: number of bytes
  * Return: start
  */
+
 char *_memcpy(char *dest, char *src, unsigned int n)
 {
 	char *start = dest;
