@@ -2,3 +2,6 @@
  
 ## 0-memset.c
 > This programm will fill memory with a constant byte
+
+## 1-memcpy.c
+> This program will copy memory area
