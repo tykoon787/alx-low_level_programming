@@ -17,3 +17,6 @@
 
 ## 5-strstr.c
 > This programm will locate  substring from an input string
+
+## 7-print_chessboard.c
+> Prints a chess board
