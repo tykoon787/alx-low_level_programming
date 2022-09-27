@@ -20,3 +20,6 @@
 
 ## 7-print_chessboard.c
 > Prints a chess board
+
+## 8-print_diagsums.c
+> Prints the sum of the two diagonals
