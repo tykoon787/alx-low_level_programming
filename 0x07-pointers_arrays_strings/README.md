@@ -11,3 +11,6 @@
 
 ## 3-strspn.c
 > This programm will get the length of a prefix substring
+
+## 4-strpbrk.c
+> This program will search a string for any set of bytes
