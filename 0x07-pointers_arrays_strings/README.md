@@ -8,3 +8,6 @@
 
 ## 2-strchr.c
 > This programm will locate a character in a string
+
+## 3-strspn.c
+> This programm will get the length of a prefix substring
