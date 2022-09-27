@@ -14,3 +14,6 @@
 
 ## 4-strpbrk.c
 > This program will search a string for any set of bytes
+
+## 5-strstr.c
+> This programm will locate  substring from an input string
