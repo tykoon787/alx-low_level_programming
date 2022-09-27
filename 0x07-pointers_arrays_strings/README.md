@@ -23,3 +23,6 @@
 
 ## 8-print_diagsums.c
 > Prints the sum of the two diagonals
+
+## 101-crackme_password
+> Cracked Pword
