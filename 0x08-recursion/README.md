@@ -5,3 +5,6 @@
 
 ## 1-print_rev_recursion.c
 > Prints a string in reverse. Or should I say `esrever`
+
+## 2-strlen_recursion.c
+> Returns the length of a string
