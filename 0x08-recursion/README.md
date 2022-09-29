@@ -1,4 +1,4 @@
-# 0x08-Recursion 
+# 0x08-Recursion
 
 ## 0-puts_recursion.c
 > Program will print a string
@@ -14,3 +14,6 @@
 
 ## 4-pow_recursion
 > Returns the value of x ^ y
+
+## 5-sqrt_recursion
+> Returns the square root of a number
