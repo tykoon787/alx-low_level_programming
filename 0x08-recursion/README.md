@@ -20,3 +20,6 @@
 
 ## 6-is_prime_number.c
 > Checks if an integer is prime
+
+## 100-wildcmp.c
+> Compares two strings
