@@ -11,3 +11,6 @@
 
 ## 3-factorial.c
 > Returns the factorial of a given integer
+
+## 4-pow_recursion
+> Returns the value of x ^ y
