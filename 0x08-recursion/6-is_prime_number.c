@@ -21,7 +21,7 @@ int is_prime_number(int n)
 
 /**
  * is_divisible - check if num is divisible
- * @num: Number to be checked 
+ * @num: Number to be checked
  * @div: Result out of division
  * Return: 1 if num is divisible or 0 if numis not divisible
  */
