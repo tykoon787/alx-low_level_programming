@@ -17,3 +17,6 @@
 
 ## 5-sqrt_recursion
 > Returns the square root of a number
+
+## 6-is_prime_number.c
+> Checks if an integer is prime
