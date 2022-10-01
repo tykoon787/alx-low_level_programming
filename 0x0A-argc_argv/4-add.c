@@ -3,7 +3,7 @@
 #include <ctype.h>
 
 /**
- * main - Entry Point 
+ * main - Entry Point
  * @argc: Argument Counter
  * @argv: Argument Vector
  * Return: Always 0 (Success)
