@@ -8,3 +8,6 @@
 
 ## 2-args.c
 > Prints the arguments passed to a cli prog
+
+## 3-mul.c
+> Multiplies two arguments
