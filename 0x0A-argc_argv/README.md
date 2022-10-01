@@ -11,3 +11,6 @@
 
 ## 3-mul.c
 > Multiplies two arguments
+
+## 4-add.c
+> Adds two nubmers
