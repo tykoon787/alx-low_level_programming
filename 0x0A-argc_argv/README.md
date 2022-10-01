@@ -6,3 +6,5 @@
 ## 1-args.c
 > Counts the number of arguments passed to a prog
 
+## 2-args.c
+> Prints the arguments passed to a cli prog
