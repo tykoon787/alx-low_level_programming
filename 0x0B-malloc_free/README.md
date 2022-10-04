@@ -8,3 +8,6 @@
 
 ## 2-str_concat.c
 > Program that concatenates two strings.
+
+## 3-alloc_grid.c
+> Function that returns a pointer to a 2 dimensional array of integers.
