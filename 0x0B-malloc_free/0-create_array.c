@@ -8,7 +8,6 @@
  * @size: Input Size of the Array
  * @c: Input Value to be assigned to array
  * Return: A pointer to the array
- *
  */
 char *create_array(unsigned int size, char c)
 {
@@ -33,5 +32,4 @@ char *create_array(unsigned int size, char c)
 		i++;
 	}
 	return (s);
-
 }
