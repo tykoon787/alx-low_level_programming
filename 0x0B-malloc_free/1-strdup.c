@@ -1,5 +1,6 @@
 #include "main.h"
 #include <stdio.h>
+#include <stdlib.h>
 #include <string.h>
 
 /**
@@ -26,7 +27,7 @@ char *_strdup(char *str)
 		str++;
 
 	str = dest;
-	str_copy = malloc(sizeof(char) * (len + 1));
+	str_copy =malloc(sizeof(char) * (len + 1));
 	dest = str_copy;
 
 	if (str_copy == NULL)
