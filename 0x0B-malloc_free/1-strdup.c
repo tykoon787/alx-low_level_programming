@@ -9,13 +9,10 @@
  * @str: Input String
  * Return: Pointer to newly allocated space in memory
  */
-
-
 char *_strdup(char *str)
 {
-	char *dest, *str_copy;
-	int i = 0;
-	int len = 0;
+	char *str_copy, *dest;
+	int i = 0, len = 0;
 
 	if (str == NULL)
 		return (NULL);
@@ -27,21 +24,21 @@ char *_strdup(char *str)
 		len++;
 		str++;
 	}
-	str = dest;
 
+	str = dest;
 	str_copy = malloc(sizeof(char) * (len + 1));
 	dest = str_copy;
 
-	if (str_copy == NULL)
-		return (NULL);
-
-
-	else
+	if (str_copy != NULL)
+	{
 		for (; i < len; i++)
 		{
 			str_copy[i] = *str;
 			str++;
-			str_copy[i] = '\0';
 		}
-	return (dest);
+		str_copy[i] = '\0';
+		return (dest);
+	}
+	else
+		return (NULL);
 }
