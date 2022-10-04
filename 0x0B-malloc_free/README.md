@@ -5,3 +5,6 @@
 
 ## 1-strdup.c
 >  Program that returns a pointer to a newly allocated space in memory, which contains a copy of the string given as a parameter.
+
+## 2-str_concat.c
+> Program that concatenates two strings.
