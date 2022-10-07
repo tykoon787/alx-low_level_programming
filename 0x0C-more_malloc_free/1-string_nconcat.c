@@ -15,10 +15,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
 
 	char *cpy_s1, *cpy_s2, *new_str, *cpy_new_str;
-	int lens1 = 0; 
-	int lens2 = 0; 
-	int i = 0;
-	unsigned int j = 0;
+	unsigned int lens1 = 0, lens2 = 0, i = 0;
 
 	cpy_s1 = s1;
 	cpy_s2 = s2;
@@ -51,23 +48,20 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 
 	cpy_new_str = new_str;
 
-	for (; i < lens1; i++)
+	for (; (i < lens1 + n); i++)
 	{
-	*new_str = *s1;
-	new_str++;
-	s1++;
+		if (i < lens1)
+		{
+			new_str[i] = *s1;
+			s1++;
+		}
+		else
+		{
+			new_str[i] = *s2;
+			s2++;
+		}
+
 	}
-
-	new_str = cpy_new_str;
-
-	while (*new_str != '\0')
-		new_str++;
-
-	for (; j <= n; j++)
-	{
-		*new_str = *s2;
-		new_str++;
-		s2++;
-	}
+	new_str[i] = '\0';
 	return (cpy_new_str);
 }
