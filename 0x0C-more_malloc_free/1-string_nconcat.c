@@ -48,6 +48,9 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 
 	cpy_new_str = new_str;
 
+	if (n >= lens2)
+		n = lens2;
+	
 	for (; (i < lens1 + n); i++)
 	{
 		if (i < lens1)
