@@ -10,6 +10,7 @@ char *_memset(char *s, char b, unsigned int n)
 	{
 	*s = b;
 	s++;
+	n--;
 	}
 	return (start);
 }
@@ -18,6 +19,6 @@ int main(void)
 {
 	char str1[50] = "Green Eagle is Extinct \n";
 
-	_memset(str1 + 3, '/', 5);
-	printf("\n %s: ",str1);
+	_memset(str1, '/', 5);
+	printf("%s: \n",str1);
 }
