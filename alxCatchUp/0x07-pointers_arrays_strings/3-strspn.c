@@ -3,9 +3,7 @@
 
 unsigned int _strspn(char *s, char *accept)
 {
-	int result;
-	int count = 0; 
-	int i = 0, len_s = 0, len_accept = 0;
+	int count = 0, i = 0, len_s = 0, len_accept = 0;
 	char *s_cpy, *accept_cpy;
 	int x = 0, y = 0, z = 0;
 
