@@ -11,3 +11,6 @@
 
 ## 4-new_dog.c
 > Function that prints a new dog
+
+## 5-free_dog.c
+> Frees a dog
