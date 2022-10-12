@@ -8,3 +8,6 @@
 
 ## 2-print_dog.c
 > Function that prints a struct dog
+
+## 4-new_dog.c
+> Function that prints a new dog
