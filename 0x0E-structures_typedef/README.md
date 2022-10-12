@@ -5,3 +5,6 @@
 
 ## 1-init_dog.c
 > Function that initialize a variable of type struct dog
+
+## 2-print_dog.c
+> Function that prints a struct dog
