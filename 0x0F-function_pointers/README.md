@@ -8,3 +8,6 @@
 
 ## 2-int_index.c
 > Function that searches for a string
+
+## 3
+> Perfom operations
