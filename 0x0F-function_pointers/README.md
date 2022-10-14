@@ -5,3 +5,6 @@
 
 ## 1-array_iterator.c
 > Prints each element of an array
+
+## 2-int_index.c
+> Function that searches for a string
