@@ -6,3 +6,7 @@
 
 ## 1-listint_len.c
 > A function that returns the number of elements in a linked listint_t list.
+
+## 2-add_nodeint.c
+> A function that returns the number of elements in a linked listint_t list.
+
