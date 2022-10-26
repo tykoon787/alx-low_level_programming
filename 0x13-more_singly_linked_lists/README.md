@@ -18,3 +18,6 @@
 
 ## 5-free_listint2.c
 > A function that frees a listint_t list.
+
+## 6-pop_listint.c
+> A function that deletes the head node of a listint_t linked list, and returns the head node’s data (n).
