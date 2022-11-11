@@ -4,8 +4,8 @@
 #include <fcntl.h>
 #include <sys/uio.h>
 #include <unistd.h>
+#include <stdlib.h>
 
-#define BUFFSIZE 1000000
 
 /**
  * read_textfile - A function that reads a text file and prints
@@ -18,7 +18,7 @@
 ssize_t read_textfile(const char *filename, size_t letters)
 {
 	int fd_open, fd_read, fd_write;
-	char buff[BUFFSIZE];
+	char *buff = malloc(sizeof(char) * letters);
 
 	if (filename == NULL)
 		return (0);
