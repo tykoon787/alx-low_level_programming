@@ -3,7 +3,7 @@
 #include <sys/stat.h>
 #include <fcntl.h>
 #include <sys/uio.h>
-#include <stdlib.h>
+#include <unistd.h>
 
 #define BUFFSIZE 1024
 
