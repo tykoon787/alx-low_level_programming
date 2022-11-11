@@ -5,7 +5,7 @@
 #include <sys/uio.h>
 #include <unistd.h>
 
-#define BUFFSIZE letters 
+#define BUFFSIZE letters
 
 /**
  * read_textfile - A function that reads a text file and prints
