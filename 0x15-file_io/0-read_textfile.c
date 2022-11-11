@@ -5,6 +5,8 @@
 #include <sys/uio.h>
 #include <unistd.h>
 
+#define BUFFSIZE 1024
+
 /**
  * read_textfile - A function that reads a text file and prints
  * to the POSIX STDOUT
@@ -16,7 +18,7 @@
 ssize_t read_textfile(const char *filename, size_t letters)
 {
 	int fd_open, fd_read, fd_write;
-	char buff[letters];
+	char buff[BUFFSIZE];
 
 	if (filename == NULL)
 		return (0);
