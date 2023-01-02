@@ -11,3 +11,6 @@
 
 ## 3-add_dnodeint_end.c
 > A function that adds a new node at the end of a dlistint_t list.
+
+## 4-free_dlistint.c
+> A function that frees a dlistint_t list.
