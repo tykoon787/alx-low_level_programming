@@ -1,52 +1,53 @@
 #include "hash_tables.h"
+#include <string.h>
+#include <stdlib.h>
 
 /**
- * hash_table_set - function that adds an element to hash table
- * @ht: hash table to update
- * @key: key
- * @value: value of key
- * Return: updated table
+ * hash_table_set - A function that sets a key value pair in the hash table.
+ * @ht: A pointer to hash table to set in.
+ * @key: The key to set in hash table.
+ * @value: The value to set as hash_node's value.
+ * Return: 1 on success, or 0 on failure.
  */
 int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 {
-	unsigned long int idx = 0;
-	char *temp_val = NULL;
-	hash_node_t *temp = NULL;
-	hash_node_t *new = NULL;
+	unsigned long int index = 0;
+	char *value_dup = NULL, *key_dup = NULL;
+	hash_node_t *new_node = NULL, *tmp_node = NULL;
 
-	if (ht == NULL || ht->array == NULL || value == NULL)
+	if (!ht || !key || !value)
 		return (0);
-
-	if (strlen(key) == 0 || key == NULL)
+	else if (strlen(key) == 0)
 		return (0);
-	temp_val = strdup(value);
-	if (temp_val == NULL)
+	value_dup = strdup(value);
+	key_dup = strdup(key);
+	new_node = malloc(sizeof(hash_node_t));
+	if (!new_node)
 		return (0);
-	idx = key_index((unsigned char *)key, ht->size);
-	/* Collision checker */
-	temp = ht->array[idx];
-	while (temp)
+	new_node->key = key_dup;
+	new_node->value = value_dup;
+	new_node->next = NULL;
+	index = key_index((unsigned char *)key, ht->size);
+	if ((ht->array)[index] != NULL)
 	{
-		if (strcmp(temp->key, key) == 0)
+		tmp_node = (ht->array)[index];
+		while (tmp_node)
 		{
-			free(temp->value);
-			temp->value = temp_val;
-			temp->value = strdup(value);
-			free(temp_val);
-			return (1);
+			if (strcmp(tmp_node->key, key_dup) == 0)
+			{
+				free(ht->array[index]->value);
+				ht->array[index]->value = value_dup;
+				free(key_dup);
+				free(new_node);
+				return (1);
+			}
+			tmp_node = tmp_node->next;
 		}
-		temp = temp->next;
+		tmp_node = (ht->array)[index];
+		new_node->next = tmp_node;
+		(ht->array)[index] = new_node;
 	}
-	/* If no collision, insert node */
-	new = malloc(sizeof(hash_node_t));
-	if (new == NULL)
-	{
-		free(new);
-		return (0);
-	}
-	new->key = strdup(key);
-	new->value = temp_val;
-	new->next = ht->array[idx];
-	ht->array[idx] = new;
+	else
+		(ht->array)[index] = new_node;
 	return (1);
 }
