@@ -1,14 +1,16 @@
-CC=gcc
-SRC=main.c holberton.c
-OBJ=$(SRC:.c=.o)
-NAME=holberton
-RM=rm -f
-CFLAGS=-Wall -Werror -Wextra -pedantic
+# build executable with rules; all, clean, oclean, fclean, re
+
+CC = gcc
+CFLAGS = -Wall -Werror -Wextra -pedantic
+SRC = main.c school.c
+OBJ = $(SRC:%.c=%.o)
+NAME = school
+RM = rm -f
 
 all: $(OBJ)
-	$(CC) $(OBJ) -o $(NAME)
+	$(CC) $(CFLAGS) $(OBJ) -o $(NAME)
 
-clean:
+clean: 
 	$(RM) *~ $(NAME)
 
 oclean:

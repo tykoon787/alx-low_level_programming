@@ -1,2 +1,6 @@
-all:
-	gcc main.c holberton.c -o holberton
+# builds the executable program `school`
+
+all: school
+
+school: school.c
+	gcc main.c school.c -o school
